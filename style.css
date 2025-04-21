@@ -19,7 +19,6 @@ header{
     height: 34px;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px;
 }
 .menu {
     list-style: none; 
@@ -28,7 +27,7 @@ header{
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 100vw;
 }
 
 .menu li {
@@ -59,6 +58,8 @@ header{
     display: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     border-radius: 5px; 
+    text-align: center;
+    width: 100%;
 }
 
 .submenu li {
@@ -92,17 +93,21 @@ header img{
 header nav{
     display: flex;
     gap: 15px;
+    width: 100%;
+    padding: 0px;
 }
 header nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    padding: 0px;
 }
 header > div#Redes {
     position: absolute;
     right: 10px;
     gap: 20px;
     border-radius: 10px;
+    padding: 0px;
 }
 section.img img{
     width: 100%;
